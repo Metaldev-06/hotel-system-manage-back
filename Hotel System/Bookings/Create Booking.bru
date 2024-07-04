@@ -1,0 +1,19 @@
+meta {
+  name: Create Booking
+  type: http
+  seq: 2
+}
+
+post {
+  url: {{url}}/bookings
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "checking": "2024-07-02T22:54:02.830Z",
+    "checkout": "2024-07-02T22:54:02.830Z",
+    "price": 10 
+  }
+}

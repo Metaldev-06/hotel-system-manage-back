@@ -1,0 +1,17 @@
+meta {
+  name: Update Pricing
+  type: http
+  seq: 4
+}
+
+patch {
+  url: {{url}}/pricing/9
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "price": 60000
+  }
+}

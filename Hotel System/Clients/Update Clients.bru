@@ -1,0 +1,20 @@
+meta {
+  name: Update Clients
+  type: http
+  seq: 4
+}
+
+patch {
+  url: {{url}}/clients/ce61e1fb-5c70-4509-89ab-87e9240f9138
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "Fernando Diaz",
+    "address": "Juan Luis Diaz 235 - Formosa - Formosa",
+    "phone": "3704550519",
+    "partner": false
+  }
+}

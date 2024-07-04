@@ -1,0 +1,17 @@
+meta {
+  name: Delete Pricing
+  type: http
+  seq: 5
+}
+
+delete {
+  url: {{url}}/pricing/3
+  body: none
+  auth: none
+}
+
+body:json {
+  {
+    "price": 19500
+  }
+}

@@ -1,0 +1,15 @@
+meta {
+  name: Get Pricing
+  type: http
+  seq: 1
+}
+
+get {
+  url: {{url}}/pricing?order=asc
+  body: none
+  auth: none
+}
+
+params:query {
+  order: asc
+}

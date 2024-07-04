@@ -1,0 +1,15 @@
+meta {
+  name: Get Rooms
+  type: http
+  seq: 2
+}
+
+get {
+  url: {{url}}/rooms
+  body: none
+  auth: none
+}
+
+params:query {
+  ~order: asc
+}

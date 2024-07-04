@@ -1,0 +1,19 @@
+meta {
+  name: Create Pricing
+  type: http
+  seq: 3
+}
+
+post {
+  url: {{url}}/pricing
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "category": "no socio",
+    "type": "triple",
+    "price": 25200
+  }
+}
